@@ -222,6 +222,25 @@
 #
 # # -- Using the `in` keyword --
 #
+#json = {"bomonque": [{"iu": [{"iu-1": []}, {"iu10": [{"cozers": ["Zversky", "GoldGem", "Cnya176"]}]}]},
+#                      {"fn": [{"fn-12": [{"obercozers": [], "cozers": ["Ivanov", "Petrov"]}]}]}]}
+# 
+# for bomonqu  in json:
+#     for grup in json[bomonqu]:
+#         for iu in grup:
+#             for kaf in grup[iu]:
+#                 for kaf2 in kaf:
+#                     # print(f'{kaf[kaf2]}')
+#                     for cors in kaf[kaf2]:
+#                         # print(f'{cors}')
+#                         for cozerogis in cors:
+#                             # print(f'{cors[cozerogis]}')
+#                             # for peple in cozerogis:
+#                             for peple in cors[cozerogis]:
+#                                 print(peple)
+
+
+
 # if "Bob" in student_attendance:
 #     print(f"Bob: {student_attendance[student]}")
 # else:
