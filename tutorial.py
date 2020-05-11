@@ -57,6 +57,7 @@
 # local = friends.difference(abroad)
 # print(local)
 #
+#
 # print(abroad.difference(friends))  # This returns an empty set
 #
 # # -- Union of two sets --
